@@ -753,7 +753,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uC548\uB155\uD558\uC138\uC694. \uB85C\uC2A4\uD2B8 \uC544\uD06C \uC2DD\uB2F9\uC785\uB2C8\uB2E4.
     \uC800\uD76C\uC2DD\uB2F9\uC740 \uC21C\uC218 100% XX\uC744 \uAC08\uC544\uC11C
-    \uC74C\uC2DD\uC744 \uC81C\uACF5\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uB9CC\uAD02\uBD80"
+    \uC74C\uC2DD\uC744 \uC81C\uACF5\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 65652aefc0f62684996ac4074558d2ed, type: 2}
   m_sharedMaterial: {fileID: 2661008170132364417, guid: 65652aefc0f62684996ac4074558d2ed,
@@ -1362,6 +1362,7 @@ GameObject:
   - component: {fileID: 6197921514817657358}
   - component: {fileID: 7243374604020435250}
   - component: {fileID: 5914404222595860156}
+  - component: {fileID: 7243374604020435251}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1504,6 +1505,23 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
+--- !u!114 &7243374604020435251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5909297828898526977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3917cf241c37cb4f9209ff44203cae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 0}
+  buttonYes: {fileID: 0}
+  buttonNo: {fileID: 0}
+  buttonYesText: {fileID: 0}
+  buttonNoText: {fileID: 0}
 --- !u!1 &7555513427583032137
 GameObject:
   m_ObjectHideFlags: 0
