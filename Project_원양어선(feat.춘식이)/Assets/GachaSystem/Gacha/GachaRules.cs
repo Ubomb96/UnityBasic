@@ -6,9 +6,9 @@ public static class GachaRules
     // Èñ±Íµµº° °¡ÁßÄ¡(¿¹½Ã °ª)
     private static readonly Dictionary<int, float> weight = new()
     {
-        { 5, 0.01f },   // 1 %
-        { 4, 0.09f },   // 9 %
-        { 3, 0.90f }    // 90 %
+        { 5, 0.01f },   // 10 %
+        { 4, 0.49f },   // 40 %
+        { 3, 0.50f }    // 50 %
     };
 
     public static int RollRarity()
